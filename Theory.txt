@@ -3,7 +3,7 @@ Midgard's Theory of Layer-Separated Prompt Generation For Midjourney With Chat G
 Definitions:
 
 [1] Comma-separated sections: Semantically merge ideas within a layer.
-[2] Layer separators: Define the balance between the contributions of larger semantic clauses over the entire image.
+[2] Layer separators: Define the balance between the contributions of larger semantic clauses over the entire image. Layer separators must always be buffered by whitespace.
 [3] Guides: Factual statements about Midjourney prompting or important rules to follow.
 [4] Tips: Special case rules, helpful rules of thumb, or guidance when choosing between different solutions.
 
@@ -34,4 +34,3 @@ Tips:
 [4] Modify prompts by changing layer weights, adding/changing/deleting words and phrases, or rearranging/adding/deleting layer separators.
 [5] Employ more common language and concrete terms when modifying prompts for better results.
 [6] Negation is most effective when a word has multiple meanings and the correct one must be selected or if an unexpected element keeps showing up in images.
-
