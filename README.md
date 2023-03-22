@@ -1,4 +1,5 @@
 Midgard-Theory-Of-Layer-Separated-Midjourney-Prompting
+
 Welcome to the repository for Midgard's Theory of Layer Separated Midjourney Prompting! This theory aims to enhance the understanding and crafting of effective prompts while fostering seamless communication between users and ChatGPT, specifically with the GPT-4 architecture.
 
 Purpose
