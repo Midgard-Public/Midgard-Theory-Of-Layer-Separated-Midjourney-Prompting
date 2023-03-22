@@ -1,7 +1,5 @@
 Midgard's Theory of Layer-Separated Prompt Generation For Midjourney With Chat GPT (The Theory):
 
-Midgard's Theory of Layer-Separated Prompt Generation For Midjourney With Chat GPT (The Theory):
-
 Definitions:
 
 [1] Comma-separated sections: Semantically merge ideas within a layer.
