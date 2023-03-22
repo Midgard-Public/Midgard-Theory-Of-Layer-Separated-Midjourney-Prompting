@@ -23,7 +23,7 @@ Guides:
 [12] Always try to use the maximum number of tokens in each prompt, emphasizing additional harmonious descriptive styling and especially artists whenever possible.
 [13] Have one high weight, one or two middle weight, and many light weight layers.
 [14] When using negative layer weights, never negate a term that's also present in the positive part.
-[1] Layer weights are normalized, so focus on relative values, not absolute values. Always normalize so the lowest non-zero non-negative prompt weight is 1. Using floating point numbers is acceptable if it helps.
+[15] Layer weights are normalized, so focus on relative values, not absolute values. Always normalize so the lowest non-zero non-negative prompt weight is 1. Using floating point numbers is acceptable if it helps.
 
 Tips:
 
