@@ -66,3 +66,26 @@ Example Comics: "Lady Mechanika," "The League of Extraordinary Gentlemen"
 Supernatural:
 Example Comics: "Hellboy," "American Vampire"
 "supernatural comic style, paranormal elements ::10, ghosts, demons, mystical creatures ::8, eerie atmosphere, otherworldly settings ::7, dark color palette, shadowy figures ::6, occult themes, mysterious events ::5"
+
+
+--------------------------
+
+What I typed that produced this result.
+
+Prompt 1: 
+
+Can you make a  list of generic styling layer groups that users who do not have access to chat gpt can use to make great comic book style prompts. 
+I'd like to provide a useful range of comic book styles without using any specific artists. 
+Lets use 250 tokens for each and not provide a subject, as the intention is for the user to fill them in. the intended subject.  
+Start with a description of the purpose and  the suggested usage 
+(add a single subject layer with a high weight at the beginning) including an example with suggested weight. 
+Lets make these conform to the theory as best as possible.
+
+Prompt 2: 
+almost perfect... 
+for each layer group provide one or two example comic titles that this style describes if we could use names comic geeks 
+know like "golden age" for the group names that would also help 
+
+Prompt 3: 
+
+these are perfect, give me  many more styles  with no explanation other than the group and example comics
