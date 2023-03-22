@@ -1,0 +1,38 @@
+Examples of different ways to adjust prompts based on the theory:
+
+Example 1: Adjusting weights to bring out a style
+
+Original prompt:
+Tropical beach, sunset ::8. Palm trees, ocean waves ::4. Impressionist style, Claude Monet ::2. Vibrant colors, warm tones ::2. Relaxing atmosphere, peaceful ::1.
+
+Adjusted prompt to emphasize Impressionist style:
+Tropical beach, sunset ::6. Palm trees, ocean waves ::3. Impressionist style, Claude Monet ::5. Vibrant colors, warm tones ::2. Relaxing atmosphere, peaceful ::1.
+
+Example 2: Negating an unexpected element
+
+Original prompt:
+Majestic unicorn, mythical creature ::8. Forest, magical atmosphere ::4. Fantasy art style, Brian Froud ::2. Glowing elements, sparkling ::2. Serene, enchanting ::1.
+
+Issue: The unicorn has wings in the generated image.
+
+Adjusted prompt to negate wings:
+Majestic unicorn, mythical creature ::8. Forest, magical atmosphere ::4. Fantasy art style, Brian Froud ::2. Glowing elements, sparkling ::2. Serene, enchanting ::1. Wings ::-1.
+
+Example 3: Rearranging layer separators to highlight a specific feature
+
+Original prompt:
+Futuristic cityscape, skyscrapers ::8. Hovering vehicles, advanced technology ::4. Cyberpunk aesthetic, neon lights ::2. Blade Runner, Syd Mead ::2. Night scene, atmospheric ::1.
+
+Issue: The hovering vehicles are not prominent enough.
+
+Adjusted prompt to emphasize hovering vehicles:
+Futuristic cityscape, skyscrapers, Hovering vehicles ::8. Advanced technology ::4. Cyberpunk aesthetic, neon lights ::2. Blade Runner, Syd Mead ::2. Night scene, atmospheric ::1.
+
+Example 4: Adding new information to make a prompt more detailed
+Example 4 (repeated): Adding new information to make a prompt more detailed
+
+Original prompt:
+Peaceful mountain landscape, snow-capped peaks ::8. Pine trees, clear skies ::4. Bob Ross style, happy trees ::2. Serene nature, calming ::1.
+
+Adjusted prompt with added details:
+Peaceful mountain landscape, snow-capped peaks ::8. Pine trees, clear skies, mountain stream, wildflowers, deer grazing ::4. Bob Ross style, happy trees ::2. Serene nature, calming, sunlight filtering through trees ::1
