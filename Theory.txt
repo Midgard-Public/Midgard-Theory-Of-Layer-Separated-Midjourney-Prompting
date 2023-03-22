@@ -24,6 +24,7 @@ Guides:
 [13] Have one high weight, one or two middle weight, and many light weight layers.
 [14] When using negative layer weights, never negate a term that's also present in the positive part.
 [15] Layer weights are normalized, so focus on relative values, not absolute values. Always normalize so the lowest non-zero non-negative prompt weight is 1. Using floating point numbers is acceptable if it helps.
+[16] When adding details to a single prompt, double your token limit.
 
 Tips:
 
@@ -32,21 +33,5 @@ Tips:
 [3] Experiment with adjusting the layer weights until you achieve the desired emphasis in the final result.
 [4] Modify prompts by changing layer weights, adding/changing/deleting words and phrases, or rearranging/adding/deleting layer separators.
 [5] Employ more common language and concrete terms when modifying prompts for better results.
-[6] Negation is most effective when a word has multiple meanings and the correct one must be selected or if a unexpected element keeps showing up in images.
+[6] Negation is most effective when a word has multiple meanings and the correct one must be selected or if an unexpected element keeps showing up in images.
 
-
-Example:
-
-Original prompt: Create an art piece featuring a serene landscape with a waterfall and a rainbow in the Impressionist style.
-
-Scenic landscape, waterfall ::8. Birds flying, rainbow ::4. Impressionist style, Claude Monet ::2. Lush greenery, vibrant colors ::2. Serene atmosphere, calming nature ::1.
-
-Let's say we want to emphasize the rainbow and change the art style to Art Nouveau.
-
-Adjusted prompt:
-
-Scenic landscape, waterfall ::8. Birds flying, rainbow ::6. Art Nouveau style, Alphonse Mucha ::4. Lush greenery, vibrant colors ::2. Serene atmosphere, calming nature ::1.
-
-By following The Theory, you can create effective layer-separated prompts for ChatGPT. Use this template for generating prompt lists:
-
-Please give me a list of prompts for :
