@@ -12,10 +12,17 @@ This mantra helps maintain high-quality results and prevents any degradation in 
 
 How to Use
 Open your ChatGPT 4.0 instance (Please note that this method works exclusively with ChatGPT 4.0, which is not currently free).
+
 Copy the contents of Theory.txt into your ChatGPT 4.0 interface.
+
 Add your specific request for prompts at the end of the text.
+
 Enjoy generating amazing prompts for any subject or theme!
+
 Useful Links
+
 To learn more about OpenAI and ChatGPT, visit OpenAI.
+
 For more information on Midjourney and their work, check out Midjourney's Website.
+
 Thank you for exploring Midgard's Theory of Layer Separated Midjourney Prompting, and happy prompting!
