@@ -18,3 +18,10 @@ This helps keep the result quality from slipping
 Suggested use case: 
 
 Copy the contents of Theory.txt into your chat gpt instance and add your request for prompts at the bottom.
+
+
+
+IMPORTANT NOTE: 
+
+THIS ONLY WORKS WITH CHATGPT 4.0 WHICH IS NOT CURRENTLY FREE
+
