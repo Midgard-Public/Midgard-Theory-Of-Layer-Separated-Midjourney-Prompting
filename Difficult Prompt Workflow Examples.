@@ -1,0 +1,61 @@
+These are some examples of me using ChatGPT to attempt to solve difficult prompts.
+
+
+Example 1 ASCII Art Cyberpunk City :
+
+Me: 
+
+I want to attempt to generate a difficult style, an ASCII art cyberpunk city.... 
+"cyberpunk" has a very strong visual gravity in midjourney so we will need to use high image weights for ascii art styling, 
+lets start with 2x weight on any ascii styling any cyberpunk related styling. we will probably need to do some negation as well, 
+we want to negate visual styles that will produce a realistic results without losing the cyberpunk coloring and subject matter in the resulting ascii.
+
+Let put a lot of work into a few prompts, three prompts with a 500 token limit. 
+Lets try to use lots of small positive and negative layers that fit our goal and avoid any unnecessary words that are unlikely to produce a visual result on their own. 
+As always be sure to try to follow the theory as closely as possible
+
+ChatGPT4: (edited to remove fluff)
+
+Prompt 1:
+"ASCII art, geometric shapes, lines, characters ::15, cyberpunk city, futuristic, neon, dark ::10, skyscrapers, cityscape, urban ::5, technology, high-tech, gritty ::3, realistic visuals ::-5, 3D, detailed shading ::-3"
+
+Prompt 2:
+"ASCII cityscape, urban structures, text-based ::15, cyberpunk atmosphere, dystopian, glowing signs ::10, futuristic vehicles, cybernetic enhancements, holograms ::5, rain, smog, city lights ::3, photographic realism ::-5, perspective, depth ::-3"
+
+Prompt 3:
+"textual art, symbols, patterns, monochrome ::15, cyberpunk world, networks, cyberspace, underground ::10, cables, machinery, AI, cybernetic organisms ::5, glass, steel, concrete ::3, lifelike textures ::-5, shadow, light ::-3"
+
+Me: 
+
+that didn't quite work... 
+
+The first and third ones had some textures on buildings that approached what we were looking for but the look was not thhere
+
+the style we want is more like if the entire image were made out of ascii characters like people did in chat rooms.  
+
+This is a text example of ascii art
+
+▒▒▒▒▒▒▐███████▌
+▒▒▒▒▒▒▐░▀░▀░▀░▌
+▒▒▒▒▒▒▐▄▄▄▄▄▄▄▌
+▄▀▀▀█▒▐░▀▀▄▀▀░▌▒█▀▀▀▄
+▌▌▌▌▐▒▄▌░▄▄▄░▐▄▒▌▐▐▐▐
+
+
+ I think to achieve this we will need to add to really focus on additional styling layers that are specifically about capturing this look in addition to what we were doing before.
+
+I liked the prompt one images the best... lets really go at that one with lots and lots of descriptions and like 1200 tokens. skip the description fluff and just do the prompt
+
+ChatGPT:
+
+"ASCII characters, symbols, text-based visuals ::25, cyberpunk city, futuristic, neon, dark ::15, skyscrapers, cityscape, urban ::10, technology, high-tech, gritty ::5, realistic visuals ::-10, 3D, detailed shading ::-5, chat room art, monochrome, patterns, ░▒▓█ ::20, lines, characters, geometric shapes ::10, ASCII art structure, text-based rendering ::8, typographic design, negative space ::5"
+
+Note: 
+
+This produced a prompt with all four images in the grid in a satisfactory ascii style and two being good results that look like cities, however there is little color.
+
+Me: 
+
+this worked great, lets try to refine it even further... we didn't get much color, I want it to be made with different colored ascii characters... also lets try to emphasize the skyline sky dichotomy
+
+"ASCII characters, symbols, text-based visuals ::25, cyberpunk city, futuristic, neon, dark ::15, skyscrapers, cityscape, urban ::10, technology, high-tech, gritty ::5, realistic visuals ::-10, 3D, detailed shading ::-5, chat room art, monochrome ::-8, patterns, ░▒▓█ ::20, lines, characters, geometric shapes ::10, ASCII art structure, text-based rendering ::8, typographic design, negative space ::5, colored ASCII characters, neon colors, glowing text ::12, skyline, sky dichotomy, contrast, city lights ::7"
