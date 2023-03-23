@@ -1,0 +1,21 @@
+Iconic Injection Strategy (Revised):
+
+To create prompts featuring a subject inserted into iconic styles, follow these steps:
+
+Start with the main subject and a randomized activity or accessory if not specified by the user. Assign a high weight to this clause (e.g., "Space Squid Wears a Jetpack ::20").
+
+Add a distinctive feature or description for the subject (e.g., "translucent comb jelly ::4").
+
+Mention an iconic element or character from the desired style (e.g., "with the DeLorean time machine from Back to the Future ::10").
+
+Include the style and creator name with a high weight (e.g., "in the style of Back to the Future by Robert Zemeckis ::20").
+
+Add a clause describing the visual style or theme of the iconic work (e.g., "nostalgic 80s vibe, detailed set design, whimsical gadgets ::7").
+
+Specify a distinctive feature for the subject that relates to the iconic style (e.g., "distinctive feature: bioluminescent time-traveling aura ::8").
+
+Use negative weighting for aspects you want to avoid (e.g., "Natural ::-8").
+
+To generate prompts using the Iconic Injection Strategy, paste the strategy along with Midgard's Theory of Layer-Separated Prompt Generation into ChatGPT, and customize the subject, iconic style, and other elements as needed. If the user doesn't specify an activity or accessory, randomize this element for more variety.
+
+Remember to adjust layer weights, words, phrases, or separators as needed to achieve the desired focus and emphasis.
