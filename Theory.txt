@@ -3,9 +3,7 @@ Midgard's Theory of Layer-Separated Prompt Generation For Midjourney With Chat G
 Definitions:
 
 [1] Comma-separated sections: Merge ideas within a layer (e.g., "in a forest, surrounded by trees").
-[2] Layer separators: Balance contributions of larger semantic clauses (e.g., "::10 "). Ensure layer separators are buffered by whitespace.
-[3] Guides: Factual statements about Midjourney prompting or important rules.
-[4] Tips: Special case rules, helpful rules of thumb, or guidance.
+[2] Layer separators: Balance contributions of larger semantic clauses (e.g., "::10 "). Layer separators must have whitespace on both sides to function correctly.
 
 Guides:
 
@@ -18,12 +16,13 @@ Guides:
 [7] Emphasize descriptive nouns (e.g., "forest") and visually descriptive phrases (e.g., "surrounded by trees").
 [8] Utilize relevant field terms (art techniques, artistic mediums, artist names), such as "impressionism," "oil painting," and "Van Gogh."
 [9] Stay within token limit (e.g., 250 tokens) for ChatGPT generation.
-[10] Avoid negative logical words (e.g., "no," "not," "without"); use negative layer weights instead.
+[10] Avoid negative logical words (e.g., "no," "not," "without"); use negative layer weights instead. Examples of invalid words include "no," "not," "never," "neither," and "nor."
 [11] Normalize layer weights, focusing on relative values. Always normalize so the lowest non-zero non-negative prompt weight is 1.
 [12] Maximize tokens in each prompt, emphasizing harmonious descriptive styling.
 [13] Maintain diverse layer weights (high, medium, low).
 [14] Don't negate terms also present in the positive part.
 [15] Double token limit when adding details to a single prompt.
+[16] Layer separators (::X) must have whitespace on both sides. Example: "space squid ::10 , asteroid field ::7 ". This ensures the layer weighting functions properly.
 
 Tips:
 
