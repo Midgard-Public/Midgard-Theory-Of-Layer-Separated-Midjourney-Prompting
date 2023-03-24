@@ -1,6 +1,25 @@
-Purpose: The purpose of these generic styling layer groups is to provide a range of comic book styles that users can apply to their desired subjects to create unique and engaging prompts. These layer groups focus on different aspects of comic book styles, such as layout, coloring, and themes, without mentioning specific artists.
+Purpose: The purpose of these generic styling layer groups is to
+provide a range of comic book styles that users can apply to their
+desired subjects to create unique and engaging prompts. These layer
+groups focus on different aspects of comic book styles, such as
+layout, coloring, and themes, without mentioning specific artists.
 
-Suggested Usage: To use these layer groups effectively, add a single subject layer with a high weight at the beginning of the prompt. This subject layer should describe the main topic or scene you want to focus on in the comic book style. For example, if you want to create a prompt for a superhero scene, add "superhero scene ::15" at the beginning of the chosen layer group.
+Suggested Usage: To use these layer groups effectively, add a single
+subject layer with a high weight at the beginning of the prompt. This
+subject layer should describe the main topic or scene you want to
+focus on in the comic book style. For example, if you want to create
+a prompt for a superhero scene, add "superhero scene ::15" at the
+beginning of the chosen layer group.
+
+ChatGPT Example Prompt: Try this in ChatGPT 
+
+Please give me a list of 5 prompts of { Subject }. I want to style them 
+like great { Style Goal } like { Example1 } and { Example2 },
+and use the names of the artists and an analysis of visual styles
+of the { Style Goal } make sure to extrapolate from these examples
+and use different ones for each prompt, lets do some nice long prompts
+because I want really good results
+
 
 Example:
 Subject Layer: "superhero scene ::15"
@@ -9,83 +28,106 @@ Generic Styling Layer Groups:
 
 Golden Age:
 Example Comic Titles: "Action Comics," "Captain America"
-Layer Group: "Golden Age style, bold colors, classic costumes ::10, action-packed panels, simple backgrounds ::8, strong perspective, expressive characters ::7, motion lines, speed effects ::6, clear-cut heroes and villains ::5"
+Layer Group: "Golden Age style, bold colors, classic costumes ::10,
+action-packed panels, simple backgrounds ::8, strong perspective,
+expressive characters ::7, motion lines, speed effects ::6, clear-cut
+heroes and villains ::5"
 
 Silver Age:
 Example Comic Titles: "The Amazing Spider-Man," "The Fantastic Four"
-Layer Group: "Silver Age style, clean lines, dynamic layouts ::10, vibrant colors, detailed backgrounds ::8, sci-fi and fantasy elements, inventive gadgets ::7, character-driven stories, moral dilemmas ::6, heroes with relatable problems ::5"
+Layer Group: "Silver Age style, clean lines, dynamic layouts ::10,
+vibrant colors, detailed backgrounds ::8, sci-fi and fantasy elements,
+inventive gadgets ::7, character-driven stories, moral dilemmas ::6,
+heroes with relatable problems ::5"
 
 Bronze Age:
 Example Comic Titles: "The Uncanny X-Men," "Green Lantern/Green Arrow"
-Layer Group: "Bronze Age style, more realistic artwork, grittier themes ::10, mature storylines, character development ::8, social issues, political commentary ::7, darker color palettes, urban settings ::6, antiheroes, moral ambiguity ::5"
+Layer Group: "Bronze Age style, more realistic artwork, grittier
+themes ::10, mature storylines, character development ::8, social
+issues, political commentary ::7, darker color palettes, urban
+settings ::6, antiheroes, moral ambiguity ::5"
 
 Modern Age:
 Example Comic Titles: "Watchmen," "The Sandman"
-Layer Group: "Modern Age style, deconstruction of superhero tropes ::10, intricate plots, layered storytelling ::8, experimental panel layouts, varied art styles ::7, psychological depth, complex characters ::6, mature themes, diverse genres ::5"
+Layer Group: "Modern Age style, deconstruction of superhero tropes
+::10, intricate plots, layered storytelling ::8, experimental panel
+layouts, varied art styles ::7, psychological depth, complex
+characters ::6, mature themes, diverse genres ::5"
 
 Noir Inspired:
 Example Comic Titles: "Sin City," "100 Bullets"
-Layer Group: "noir inspired, moody atmosphere ::10, high contrast, heavy shadows ::8, chiaroscuro lighting, dramatic silhouettes ::7, urban setting, night scenes ::6, black and white or limited color palette ::5"
+Layer Group: "noir inspired, moody atmosphere ::10, high contrast,
+heavy shadows ::8, chiaroscuro lighting, dramatic silhouettes ::7,
+urban setting, night scenes ::6, black and white or limited color
+palette ::5"
 
 Manga-Inspired:
 Example Comics: "Naruto," "One Piece"
-"manga-inspired style, detailed backgrounds ::10, expressive faces, emotive characters ::8, speed lines, dynamic motion ::7, panel variety, unconventional layouts ::6, light and shadow contrasts ::5"
+Layer Group: "manga-inspired style, detailed backgrounds ::10,
+expressive faces, emotive characters ::8, speed lines, dynamic motion
+::7, panel variety, unconventional layouts ::6, light and shadow
+contrasts ::5"
 
 Abstract Art:
 Example Comics: "Promethea," "The Sandman"
-"abstract comic style, experimental visuals ::10, non-representational shapes, bold colors ::8, minimalistic characters, distorted perspectives ::7, unconventional panel arrangements, expressive lines ::6, symbolic storytelling, dreamlike sequences ::5"
+Layer Group: "abstract comic style, experimental visuals ::10,
+non-representational shapes, bold colors ::8, minimalistic
+characters, distorted perspectives ::7, unconventional panel
+arrangements, expressive lines ::6, symbolic storytelling, dreamlike
+sequences ::5"
 
 Cartoonish:
 Example Comics: "Archie," "The Amazing World of Gumball"
-"cartoonish comic style, exaggerated features ::10, simplified backgrounds, bold outlines ::8, bright colors, cel-shading ::7, humorous situations, playful characters ::6, expressive facial expressions, slapstick comedy ::5"
+Layer Group: "cartoonish comic style, exaggerated features ::10,
+simplified backgrounds, bold outlines ::8, bright colors, cel-shading
+::7, humorous situations, playful characters ::6, expressive facial
+expressions, slapstick comedy ::5"
 
 Sci-Fi:
 Example Comics: "Saga," "Transmetropolitan"
-"sci-fi comic style, futuristic technology ::10, advanced machinery, detailed backgrounds ::8, aliens, otherworldly landscapes ::7, vibrant colors, energy effects ::6, space exploration, interstellar battles ::5"
+Layer Group: "sci-fi comic style, futuristic technology ::10,
+advanced machinery, detailed backgrounds ::8, aliens, otherworldly
+landscapes ::7, vibrant colors, energy effects ::6, space exploration,
+interstellar battles ::5"
 
 Fantasy:
 Example Comics: "The Wicked + The Divine," "Fables"
-"fantasy comic style, magical elements ::10, mythical creatures, enchanting landscapes ::8, detailed costumes, intricate designs ::7, vibrant colors, ethereal lighting ::6, epic quests, mystical powers ::5"
+Layer Group: "fantasy comic style, magical elements ::10, mythical
+creatures, enchanting landscapes ::8, detailed costumes, intricate
+designs ::7, vibrant colors, ethereal lighting ::6, epic quests,
+mystical powers ::5"
 
 Gothic:
 Example Comics: "Hellblazer," "Black Orchid"
-"gothic comic style, dark themes ::10, brooding atmosphere, heavy shadows ::8, ornate architecture, eerie settings ::7, supernatural elements, occult symbols ::6, dark color palette, intricate patterns ::5"
+Layer Group: "gothic comic style, dark themes ::10, brooding
+atmosphere, heavy shadows ::8, ornate architecture, eerie settings ::7,
+supernatural elements, occult symbols ::6, dark color palette,
+intricate patterns ::5"
 
 Post-Apocalyptic:
 Example Comics: "The Walking Dead," "Y: The Last Man"
-"post-apocalyptic comic style, desolate landscapes ::10, ruined cities, dystopian themes ::8, survival stories, resourceful characters ::7, muted colors, grungy textures ::6, harsh environments, societal breakdown ::5"
+Layer Group: "post-apocalyptic comic style, desolate landscapes ::10,
+ruined cities, dystopian themes ::8, survival stories, resourceful
+characters ::7, muted colors, grungy textures ::6, harsh environments,
+societal breakdown ::5"
 
 Cyberpunk:
 Example Comics: "Ghost in the Shell," "Transmetropolitan"
-"cyberpunk comic style, neon-lit cityscapes ::10, futuristic technology, urban decay ::8, hacking, cybernetic enhancements ::7, corporate control, rebellious characters ::6, vivid colors, high-tech visuals ::5"
+Layer Group: "cyberpunk comic style, neon-lit cityscapes ::10,
+futuristic technology, urban decay ::8, hacking, cybernetic
+enhancements ::7, corporate control, rebellious characters ::6, vivid
+colors, high-tech visuals ::5"
 
 Steampunk:
 Example Comics: "Lady Mechanika," "The League of Extraordinary Gentlemen"
-"steampunk comic style, Victorian-era aesthetics ::10, gears, cogs, steam-powered machinery ::8, airships, mechanical contraptions ::7, alternate history, clockwork inventions ::6, sepia tones, brass and copper details ::5"
+Layer Group: "steampunk comic style, Victorian-era aesthetics ::10,
+gears, cogs, steam-powered machinery ::8, airships, mechanical
+contraptions ::7, alternate history, clockwork inventions ::6, sepia
+tones, brass and copper details ::5"
 
 Supernatural:
 Example Comics: "Hellboy," "American Vampire"
-"supernatural comic style, paranormal elements ::10, ghosts, demons, mystical creatures ::8, eerie atmosphere, otherworldly settings ::7, dark color palette, shadowy figures ::6, occult themes, mysterious events ::5"
-
-
---------------------------
-
-What I typed that produced this result.
-
-Prompt 1: 
-
-Can you make a  list of generic styling layer groups that users who do not have access to chat gpt can use to make great comic book style prompts. 
-I'd like to provide a useful range of comic book styles without using any specific artists. 
-Lets use 250 tokens for each and not provide a subject, as the intention is for the user to fill them in. the intended subject.  
-Start with a description of the purpose and  the suggested usage 
-(add a single subject layer with a high weight at the beginning) including an example with suggested weight. 
-Lets make these conform to the theory as best as possible.
-
-Prompt 2: 
-almost perfect... 
-for each layer group provide one or two example comic titles that this style describes if we could use names comic geeks 
-know like "golden age" for the group names that would also help 
-
-Prompt 3: 
-
-these are perfect, give me  many more styles  with no explanation other than the group and example comics
+Layer Group: "supernatural comic style, paranormal elements ::10,
+ghosts, demons, mystical creatures ::8, eerie atmosphere, otherworldly
+settings ::7, dark color palette, shadowy figures ::6, occult themes,
+mysterious events ::5"
