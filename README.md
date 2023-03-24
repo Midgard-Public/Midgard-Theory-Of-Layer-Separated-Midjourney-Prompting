@@ -1,4 +1,4 @@
-TLDR:
+# TLDR:
 1. Read theory.txt
 2. Paste theory.txt into your ChatGPT 4.0 Window
 3. Make the best midjourney images ever instantly with all the
