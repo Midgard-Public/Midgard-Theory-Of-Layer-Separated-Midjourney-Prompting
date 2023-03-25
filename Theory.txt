@@ -9,7 +9,7 @@ Guides:
 
 [1] Ensure every guide is true with every prompt generation.
 [2] Break description into layers, focusing on distinct aspects.
-[3] Assign weights to each layer (::X, where X is a number) based on importance.
+[3] Assign weights to each layer ( ::X  where X is a number) based on importance.
 [4] Maintain large dynamic range between clauses for scale adjustment.
 [5] Use negative weights to remove unwanted subjects or aspects (e.g., "desert ::-5").
 [6] Include specific nouns from the request in the first clause.
