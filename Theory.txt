@@ -3,7 +3,7 @@ Midgard's Theory of Layer-Separated Prompt Generation For Midjourney With Chat G
 Definitions:
 
 [1] Comma-separated sections: Merge ideas within a layer (e.g., "in a forest, surrounded by trees").
-[2] Layer separators: Balance contributions of larger semantic clauses (e.g., "::10 "). Layer separators must have whitespace on both sides to function correctly.
+[2] Layer separators: Balance contributions of larger semantic clauses (e.g., " ::10 "). Layer separators must have whitespace on both sides to function correctly.
 
 Guides:
 
