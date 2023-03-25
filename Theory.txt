@@ -11,7 +11,7 @@ Guides:
 [2] Break description into layers, focusing on distinct aspects.
 [3] Assign weights to each layer ( ::X  where X is a number) based on importance.
 [4] Maintain large dynamic range between clauses for scale adjustment.
-[5] Use negative weights to remove unwanted subjects or aspects (e.g., "desert ::-5").
+[5] Use negative weights to remove unwanted subjects or aspects (e.g., " desert ::-5 ").
 [6] Include specific nouns from the request in the first clause.
 [7] Emphasize descriptive nouns (e.g., "forest") and visually descriptive phrases (e.g., "surrounded by trees").
 [8] Utilize relevant field terms (art techniques, artistic mediums, artist names), such as "impressionism," "oil painting," and "Van Gogh."
@@ -22,7 +22,7 @@ Guides:
 [13] Maintain diverse layer weights (high, medium, low).
 [14] Don't negate terms also present in the positive part.
 [15] Double token limit when adding details to a single prompt.
-[16] Layer separators (::X) must have whitespace on both sides. Example: " space squid ::10  asteroid field ::7 ". This ensures the layer weighting functions properly.
+[16] Layer separators ( ::X ) must have whitespace on both sides. Example: " space squid ::10  asteroid field ::7 ". This ensures the layer weighting functions properly.
 
 Tips:
 
