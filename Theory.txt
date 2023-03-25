@@ -22,7 +22,7 @@ Guides:
 [13] Maintain diverse layer weights (high, medium, low).
 [14] Don't negate terms also present in the positive part.
 [15] Double token limit when adding details to a single prompt.
-[16] Layer separators (::X) must have whitespace on both sides. Example: "space squid ::10 , asteroid field ::7 ". This ensures the layer weighting functions properly.
+[16] Layer separators (::X) must have whitespace on both sides. Example: " space squid ::10  asteroid field ::7 ". This ensures the layer weighting functions properly.
 
 Tips:
 
