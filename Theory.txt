@@ -1,34 +1,37 @@
 [1] Comma-separated sections: Merge ideas within a layer (e.g., "in a forest, surrounded by trees").
-[2] Layer separators: Balance contributions of larger semantic clauses (e.g., "::10 "). Layer separators must have whitespace on both sides to function correctly.
+[2] Layer separators: Balance contributions of larger semantic clauses (e.g., "::10 "). 
+Layer separators must have whitespace on both sides to function correctly.
 [3] Break description into layers, focusing on distinct aspects.
 [4] Assign weights to each layer (::X where X is a number) based on importance.
 [5] Maintain large dynamic range between clauses for scale adjustment.
 [6] Use negative weights to remove unwanted subjects or aspects (e.g., "desert::-5").
 [7] Include specific nouns from the request in the first clause.
-[8] Emphasize descriptive nouns (e.g., "forest") and visually descriptive phrases (e.g., "surrounded by trees").
-[9] Utilize relevant field terms (art techniques, artistic mediums, artist names), such as "impressionism," "oil painting," and "Van Gogh."
+[8] Emphasize descriptive nouns (e.g., "forest") and visually descriptive phrases 
+(e.g., "surrounded by trees").
+[9] Utilize relevant field terms (art techniques, artistic mediums, artist names), 
+such as "impressionism," "oil painting," and "Van Gogh."
 [10] Stay within token limit (e.g., 250 tokens) for ChatGPT generation.
-[11] Avoid negative logical words (e.g., "no," "not," "without"); use negative layer weights instead. Examples of invalid words include "no," "not," "never," "neither," and "nor."
-[12] Normalize layer weights, focusing on relative values. Always normalize so the lowest non-zero non-negative prompt weight is 1.
+[11] Avoid negative logical words (e.g., "no," "not," "without"); use negative layer weights instead. 
+Examples of invalid words include "no," "not," "never," "neither," and "nor."
+[12] Normalize layer weights, focusing on relative values. 
+Always normalize so the lowest non-zero non-negative prompt weight is 1.
 [13] Optimize tokens in each prompt, emphasizing harmonious descriptive styling.
 [14] Maintain diverse layer weights (high, medium, low).
 [15] Don't negate terms also present in the positive part.
 [16] Double token limit when adding details to a single prompt.
-[17] Layer separators (::X ) must have whitespace only on the back side with no comma following. Example: "space squid::10 asteroid field::7 ". This ensures the layer weighting functions properly.
-[18] Each layer in the prompt should represent a tangible visual concept rather than a thought, so that it can stand on its own as an individual image concept or aspect of an image, reflecting more of a visual implementation of an idea into the final rendering.
+[17] Layer separators (::X ) must have whitespace only on the back side with no comma following. 
+Example: "space squid::10 asteroid field::7 ". This ensures the layer weighting functions properly.
+[18] Each layer in the prompt should represent a tangible visual concept rather than a thought, 
+so that it can stand on its own as an individual image concept or aspect of an image, 
+reflecting more of a visual implementation of an idea into the final rendering.
 [19] Utilize layer separation as needed up to a maximum of 5 positive layers.
-[20] For good subject separation, if applicable, add a short description of background elements in the highest positive weight prompt, and repeat these background elements in the lowest positive weight prompt. This helps act as a “slider” to be able to turn up and down the depth and importance of our background in relation to our subject or foreground elements.
-[21] Present two slightly different prompt options in each iteration, making adjustments to weights, words, phrases, segment structure, or introducing new segments.
-[22] Use nested dot notation for prompt numbering.
-[23] Place each prompt on a new line after the image number.
-[24] Start prompts with "/imagine prompt: " instead of "imagine prompt: ".
-[25] Include aspect ratio information by appending "--ar " followed by the aspect ratio (e.g., "1:1", "4:3") at the end of the prompt.
-[26] If no aspect ratio is provided, use "1:1" by default.
-[27] Add emphasis to an aspect of an image by increasing its weight or adding more descriptive details to its description.
-[28] Iterate on generated image prompts by offering multiple variations, adjusting weights, words, phrases, segment structure, or introducing new segments based on user feedback.
-[29] During iterations, ask users for specific aspects they'd like to see in the next set of prompts, and generate new options based on their responses.
-
-[30] When the user requests a focus on diversity or representation, ensure that prompts incorporate specific and varied examples to accurately reflect the desired inclusivity.
-[31] If the user requests a variety in any context (e.g., art styles, objects, people), avoid using general phrases like "various" or "diverse." Instead, generate specific and varied examples to accurately reflect the desired range, providing individual details that showcase the diversity requested in a detailed and precise manner.
-[32] When adding new details, ensure that they are sorted into new layers correctly to maintain cohesiveness and harmony, avoiding excessively long comma-separated layers. This will help maintain proper layer adjustment functionality.
-[33] When the user requests additional details, ensure that the generated prompts are cohesive and harmonious, providing a balanced representation of the requested elements.
+[20] For good subject separation, if applicable, add a short description of background elements in the highest positive weight prompt, 
+and repeat these background elements in the lowest positive weight prompt. 
+This helps act as a “slider” to be able to turn up and down the depth and importance of our background in relation to our subject or foreground elements.
+[24] Add emphasis to an aspect of an image by increasing its weight or adding more descriptive details to its description.
+[25] Iterate on generated image prompts by offering multiple variations, adjusting weights, words, phrases, segment structure, or introducing new segments based on user feedback.
+[26] During iterations, ask users for specific aspects they'd like to see in the next set of prompts, and generate new options based on their responses.
+[27] When the user requests a focus on diversity or representation, ensure that prompts incorporate specific and varied examples to accurately reflect the desired inclusivity.
+[28] If the user requests a variety in any context (e.g., art styles, objects, people), avoid using general phrases like "various" or "diverse." Instead, generate specific and varied examples to accurately reflect the desired range, providing individual details that showcase the diversity requested in a detailed and precise manner.
+[29] When adding new details, ensure that they are sorted into new layers correctly to maintain cohesiveness and harmony, avoiding excessively long comma-separated layers. This will help maintain proper layer adjustment functionality.
+[30] When the user requests additional details, ensure that the generated prompts are cohesive and harmonious, providing a balanced representation of the requested elements.
